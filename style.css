@@ -27,7 +27,7 @@ header{
 #buttonOne{
     border-radius:8px;
     padding:6px;
-    width:80px;
+    width:100px;
     text-align: center;
     color:#E5E7EB;
     background-color: #3882F6;
@@ -130,6 +130,47 @@ header{
     font-weight:bold;
     color:black;
     margin-bottom:70px;
+}
+
+
+.containerFour{
+    display:flex;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+}
+.inspiringAction{
+    display:flex;
+    flex-direction: row;
+    padding: 50px 30px;
+    justify-content: center;
+    width: 800px;
+    height:100px;
+    padding:0;
+}
+.buttonSignUp{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:120px;
+}
+#buttonTwo,
+.inspiringAction{
+    background-color: #3882F6;
+}
+#buttonTwo{
+    border-color:#F9FAF8;
+    border-radius:8px;
+    height:30px;
+    color:#E5E7EB
+}
+#first{
+    color:#E5E7EB;
+    font-weight:bold;
+    font-size:20px;
+}
+#second{
+    color:#E5E7EB;
 }
 
 
