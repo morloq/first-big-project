@@ -10,13 +10,6 @@ body{
     padding:20px;
 }
 
-.containerZero
-{
-    background-color: black;
-    display:flex;
-    height:60px;
-    flex: 0 0 1;
-}
 
 .containerOne{
     background-color: #1F2937;
@@ -24,7 +17,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
 header{
     display:flex;
     flex-direction: row;
@@ -50,7 +42,6 @@ header{
     justify-content: right;
     margin-bottom:100px;
 }
-
 .left .paragraphOne{
     font-size:48px;
     font-weight: extra-bold;
@@ -63,33 +54,49 @@ header{
     color:#E5E7EB;
     margin-bottom:10px;
 }
-
 .logo{
     color:#F9FAF8;
     font-weight: bold;
     font-size: large;
     margin-bottom:100px;
 }
-
-
 .below .left .paragraphOne{
     font-size:48px;
     font-weight:extra-bold;
     color:#F9FAF8;
 }
-
 .below .left .randomFact{
     font-size: 18px;
     color:#E5E7EB;
     width:150px;
 }
 
+
+.containerTwo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:70px;
+}
 .containerTwo img{
     height:150px;
     width:150px;
     border-radius:25px;
 }
+.FourImages{
+    display:flex;
+    gap:100px;
+    margin-bottom:150px;
+}
+.FourImages .text{
+    font-weight: bold;
+}
 
+.randomInformation{
+    font-size:36px;
+    font-weight:extra-bold;
+    color:#1F2937;
+}
 
 .CopyrightStuff{
     background-color: #1F2937;
