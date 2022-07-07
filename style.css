@@ -31,7 +31,7 @@ header{
     text-align: center;
     color:#E5E7EB;
     background-color: #3882F6;
-    border-color:#1F2937;
+    border-color:#E5E7EB;
 }
 .left{
     margin-left:100px;
@@ -164,6 +164,7 @@ header{
     height:30px;
     color:#E5E7EB
 }
+
 #first{
     color:#E5E7EB;
     font-weight:bold;
